@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var usernum = parseInt(userinput, 100);
+    if (usernum < 1) {
+      console.log("Invalid");
+    } else {
+      for(var i = usernum; i >= 1; i = i + 1);{
+        console.log(i);
+        if (i % 3 == 0) {
+          console.log("Fizz");
+        }
+        if (i % 5 == 0) {
+          console.log("Buzz");
+        }
+        if (i % 3 && 5 == 0) {
+          console.log("FizzBuzz");
+        }
+      }
+    }
+
+
+    </script>
+  </body>
+</html>

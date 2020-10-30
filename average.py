@@ -1,0 +1,5 @@
+num1 = input("Number Please...")
+num2 = input("Number Please...")
+num3 = input("Number Please...")
+num4 = input("Number Please...")
+    print("The Average is " + num + num2 + num3 + num4 / 4)
